@@ -108,7 +108,8 @@ class HomeView extends ViewModelBuilderWidget<HomeViewModel> {
             children: const [
               WelcomeView(),
               AboutView(),
-              ProjectView()
+              // ProjectView(),
+              SizedBox(height: Dimen.margin_128,)
             ],
           ),)
 

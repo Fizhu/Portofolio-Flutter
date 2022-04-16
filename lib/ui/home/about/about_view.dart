@@ -34,6 +34,9 @@ class _AboutViewState extends State<AboutView>
                 Dimen.margin_64, 0, Dimen.margin_64, Dimen.margin_64),
             shrinkWrap: true,
             children: [
+              const SizedBox(
+                height: Dimen.margin_64,
+              ),
               Text(
                 "About me️",
                 style: TextStyle(fontSize: 38, color: AppColor.textBlack),
