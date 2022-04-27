@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:portofolio/utils/app_color.dart';
 
 import 'di/locator.dart';
 import 'domain/router.gr.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  var widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   setupLocator();
   runApp(MyApp());
 }

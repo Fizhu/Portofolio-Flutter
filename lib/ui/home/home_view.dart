@@ -3,7 +3,6 @@ import 'package:portofolio/ui/home/about/about_view.dart';
 import 'package:portofolio/ui/home/home_viewmodel.dart';
 import 'package:portofolio/ui/home/project/project_view.dart';
 import 'package:portofolio/ui/home/welcome/welcome_view.dart';
-import 'package:portofolio/utils/app_color.dart';
 import 'package:portofolio/utils/ext.dart';
 import 'package:portofolio/widget/text/sub_header_text.dart';
 import 'package:stacked/stacked.dart';
