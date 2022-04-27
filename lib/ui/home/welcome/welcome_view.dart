@@ -28,7 +28,7 @@ class _WelcomeViewState extends State<WelcomeView>
         builder:
             (BuildContext context, WelcomeViewModel viewModel, Widget? child) {
           return Container(
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.grey[200]),
             margin: const EdgeInsets.all(Dimen.margin_64),
             width: double.infinity,
             height: (Ext.matchParentHeight(context) -
