@@ -36,7 +36,7 @@ class ItemProject extends StatelessWidget {
                   Text(
                     projectData.title,
                     style: TextStyle(
-                        fontSize: 28,
+                        fontSize: 24,
                         fontWeight: FontWeight.bold,
                         color: AppColor.textBlack),
                   ),
@@ -49,7 +49,7 @@ class ItemProject extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     textAlign: TextAlign.left,
                     style: TextStyle(
-                      fontSize: 22,
+                      fontSize: 18,
                       color: Colors.grey[700],
                       height: 1.5,
                     ),
